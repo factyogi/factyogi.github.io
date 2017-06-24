@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title> demo Domain Seller</title>
+<title>Domain Seller</title>
+
+	<link rel="icon" href="logo red small.jpg">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <!-- Optional Bootstrap theme -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -25,9 +28,9 @@
         
     /* On small screens, set height to 'auto' for the grid */
     @media screen and (max-width: 767px) {
-      								.row.content {height: auto;} 
+      										.row.content {height: auto;} 
     		
-							}
+									}
 									
 
 #box-wrapper{
@@ -39,37 +42,38 @@
 				min-height:640px;
 			}	
 			
+
 			
-#box-wrapper h1 {	
-				
-  				text-align: center;
- 				position: fixed;
- 				transform: translate(-50%, -50%);
-  				color: white;
-			}
-#box-wrapper h12{
-					text-align:center;
-					position: fixed;
-					}
-	
+
 	
 .woe{
 		bottom:05px;
    		 position: fixed;
+   		 right: 60px;
+		}	
+
+.woeH {
+			position: fixed;
+   			
+   			right:20%;
+		}		
+		
+		
+.woeC{
+			top:30%;
+			position:fixed;
+		
 		}		
 
 .card {
    		 box-shadow: 0px 2px 8px 0px ;
-   		 width: 100%;
+   		padding:5px
    		 
 		}
 
 
 
-.contain {
-				text-align: center;
-				margin:5px;
-			}
+
 				
 				
 .mail{
@@ -85,23 +89,40 @@
 		}
    
    
-   h12 {		
-		font-family: Courier New;		color: white;	letter-spacing:01px; 
-	 	font-size:25px;		font-weight: bold;	font-variant:small-caps;  
-	 }    
+   
+   
+ h12	{
+						
+						font-family: Courier New;		
+						color: white;	
+						letter-spacing:01px; 
+	 					font-size:25px;		
+	 					font-weight: bold;	
+	 					font-variant:small-caps; 
+		
+  					
+					}
+	
     
     
 h11 {
-		font-family: Lucida Console;		color: white;	letter-spacing:0px; 
-	 	font-size:45px;		font-weight: normal;	text-transform: uppercase;  
+		font-family: Lucida Console;		
+		color: white;	
+		letter-spacing:0px; 
+	 	font-size:45px;		
+	 	font-weight: normal;	
+	 	text-transform: uppercase;  
 	
 	}
 
 	 		
 h8{
-		font-family: Courier New;		color: white;	letter-spacing:0px;  
-			
-	 	font-size:25px;		font-weight: 200;	text-transform: none;   font-weight: bold;
+		font-family: Courier New;		
+		color: white;	
+		letter-spacing:0px;  	
+	 	font-size:20px;		
+		text-transform: none;   
+		font-weight: bold;
 	  }
    
    
@@ -116,40 +137,54 @@ h8{
 
 
 
-<div class="container-fluid" id="box-wrapper">
+<div class="jumbotrons" id="box-wrapper">
 	
-	
+	<div class="container text-center woeH" >
 		<div class="row">
-			<div class="col-sm-offset-5 col-sm-4">		
-				<h12>www.factyogi.com</h12>
-			</div>
+			<div class="col-sm-offset-5 col-sm-4">
+					<h12>www.factyogi.com</h12>
+			</div>		
 		</div>	
-				<br> <br> <br>
-				
-		<div class="row">
-			<div class="col-sm-offset-3 col-sm-11">
-				<h11> THIS DOMAIN IS FOR SALE !!! </h11>
-			</div>
-		</div>
 			
+	</div>	
 
 	
-					<div class="row">
-					<div class="col-sm-offset-6 col-sm-4 woe">
-						<div class="card">
-							<div class="contain" style="box-shadow: 0 2px 6px 0 ;">
- 				 				<h8> Please contact here: </h8> 
- 				 			</div>
- 				 			<div class="contain">
- 								<div class="mail"> <img alt="Mail" src="img\mail.png"></div>
- 					    		<h8>TechBurfi@gmail.com</h8> 
-  							</div>	
-						</div>
-					</div>
-				</div>
-		
 	
-</div>
+				
+	<div class="container woeC text-center">
+		<div class="row">
+			<div class="col-sm-12">
+				<h11> This domain is for sale !!! </h11>	
+			</div>
+		</div>
+	</div>
+		
+		
+		
+					<div class="container text-center woe">
+					
+						<div class="row">
+							<div class="col-sm-offset-7 col-sm-5 card">
+								<h8> Please contact here: </h8>  
+							</div>
+							
+						</div>		
+						
+						
+						
+						<div class="row ">
+							<div class="col-sm-offset-7 col-sm-5 card">
+								<p><span class="glyphicon glyphicon-envelope"></span>
+									<h8>TechBurfi@gmail.com</h8> 
+								</p>
+							</div>
+							
+						</div>				
+								 
+					
+					</div>
+					
+</div>	
 
 </body>
 
